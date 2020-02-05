@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM quay.io/myriad/centos:latest
 MAINTAINER Mahmoud Alkelany "mmahmoh@gmail.com"
 RUN yum -y install epel-release 
 #RUN yum -y install python-pip 
